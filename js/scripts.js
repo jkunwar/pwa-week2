@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./service-worker.js', { scope: '/pwa-week2/' })
+    navigator.serviceWorker.register('/pwa-week2/service-worker.js', { scope: '/pwa-week2/' })
         .then((res) => {
             console.log(res)
         })
